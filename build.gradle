@@ -21,6 +21,10 @@ jacoco {
 
 repositories {
 mavenCentral()
+maven {
+name = "MavenRepo2"
+url = "https://repo.maven.apache.org/maven2/"
+}
 
     mavenCentral()
 }
